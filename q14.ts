@@ -1,9 +1,9 @@
-// GUEST LIST
+//Guest List
 
-// If you could invite anyone to dinner, who would you invite? Make a list that includes at least three people you’d like to invite to dinner.
-const invitePeople: string[] = ['Sir Zia', 'Sir Jahanzaib', 'Sir Daniyal'];
+//Inviting three people to dinner.
+const invitePeople = ["Sir Zia", "Sir Jahanzaib", "Sir Daniyal"];
 
-// Then use the list to print a message to each person, inviting them to dinner
+//Printing a message to each person, inviting them to dinner.
 console.log(
   `Hello ${invitePeople[0]}, I would like to invite you to dinner today.`
 );

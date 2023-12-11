@@ -1,4 +1,3 @@
-"use strict";
 function q32() {
     const current_users = ["ALi", "Raza", "Ghouri", "Sarfraz", "Ahmad"];
     const new_users = ["Raffay", "Awais", "RAZA", "aLI", "Usama"];
@@ -15,3 +14,4 @@ function q32() {
         }
     }
 }
+export {};

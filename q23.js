@@ -1,5 +1,4 @@
-"use strict";
-// CONDITIONAL TESTS
+//Conditional Tests
 // Write a series of conditional tests. Print a statement describing each test and your prediction for the results of each test. Your code should look something like this:
 // let car = 'subaru';
 // console.log("Is car == 'subaru'? I predict True.")
@@ -20,9 +19,9 @@ let plane = "Airbus A380";
 console.log("Is plane == 'Boeing 777'? I predict false.");
 console.log(plane == "Boeing 777");
 console.log("\n");
-let course = "AI, Web3 & Metaverse Developer";
-console.log("Is course == 'AI, Web3 & Metaverse Developer'? I predict true.");
-console.log(course == "AI, Web3 & Metaverse Developer");
+let course = "GenAI, Web3 & Metaverse Developer & Solopreneur";
+console.log("Is course == 'GenAI, Web3 & Metaverse Developer & Solopreneur'? I predict true.");
+console.log(course == "GenAI, Web3 & Metaverse Developer & Solopreneur");
 console.log("\n");
 let fruit = "Guava";
 console.log("Is fruit == 'Peach'? I predict false.");
@@ -43,3 +42,4 @@ console.log("\n");
 let cup2 = "Tea";
 console.log("Is cup2 == 'Coffee'? I predict false.");
 console.log(cup2 == "Coffee");
+export {};

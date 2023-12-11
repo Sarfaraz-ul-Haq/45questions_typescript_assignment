@@ -1,6 +1,4 @@
-"use strict";
-// CHANGING GUEST LIST
-// You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
+//Changing Guest List
 // Start with the program from Exercise 14. Add a print statement at the end of the program stating the name of the guest who can’t make it.
 const invitePeople = ['Sir Zia', 'Sir Jahanzaib', 'Sir Daniyal'];
 console.log(`Hello ${invitePeople[0]}, I would like to invite you to dinner tonight.`);
@@ -13,3 +11,4 @@ invitePeople[2] = 'Sir Adil'; // Updating the array's 2nd index value.
 console.log(`Hello ${invitePeople[0]}, I would like to invite you to dinner tonight.`);
 console.log(`Hello ${invitePeople[1]}, I would like to invite you to dinner tonight.`);
 console.log(`Hello ${invitePeople[2]}, I would like to invite you to dinner tonight.`);
+export {};

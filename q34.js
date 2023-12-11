@@ -1,4 +1,3 @@
-"use strict";
 // PIZZAS
 // Think of at least three kinds of your favorite pizza. Store these pizza names in a array, and then use a for loop to print the name of each pizza.
 // • Modify your for loop to print a sentence using the name of the pizza instead of printing just the name of the pizza. For each pizza you should have one line of output containing a simple statement like I like pepperoni pizza.
@@ -11,3 +10,4 @@ console.log(`I like ${favPizza[0]} pizza.`);
 console.log(`I really love ${favPizza[1]} pizza!`);
 console.log(`I really love ${favPizza[2]} pizza!`);
 console.log("I really love pizza!");
+export {};

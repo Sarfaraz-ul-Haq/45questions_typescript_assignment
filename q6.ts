@@ -1,7 +1,8 @@
-let personsName: string = '\t\tElon\n\n\n';
+//Striping Names
+
+let personsName: string = '\n\t\tElon\n';
 console.log(personsName);
 
 personsName = personsName.trim();
 console.log(personsName);
 
-export {}

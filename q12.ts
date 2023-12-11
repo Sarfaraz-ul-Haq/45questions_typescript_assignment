@@ -1,5 +1,7 @@
-const names: string[] = ["Momin", "Hasan", "Noman"];
+//Greetings
 
-console.log(`Hello ${names[0]}, would you like to learn some TypeScript today?`);
-console.log(`Hello ${names[1]}, would you like to learn some TypeScript today?`);
-console.log(`Hello ${names[2]}, would you like to learn some TypeScript today?`);
+const friendNames: string[] = ["Momin", "Hasan", "Noman"];
+
+console.log(`Hello ${friendNames[0]}, would you like to learn some TypeScript today?`);
+console.log(`Hello ${friendNames[1]}, would you like to learn some TypeScript today?`);
+console.log(`Hello ${friendNames[2]}, would you like to learn some TypeScript today?`);

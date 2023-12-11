@@ -1,6 +1,4 @@
-// CHANGING GUEST LIST
-
-// You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
+//Changing Guest List
 
 // Start with the program from Exercise 14. Add a print statement at the end of the program stating the name of the guest who can’t make it.
 const invitePeople: string[] = ['Sir Zia', 'Sir Jahanzaib', 'Sir Daniyal'];
