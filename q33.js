@@ -1,17 +1,17 @@
-function q32() {
-    const current_users = ["ALi", "Raza", "Ghouri", "Sarfraz", "Ahmad"];
-    const new_users = ["Raffay", "Awais", "RAZA", "aLI", "Usama"];
-    const lower_case_current_users = [];
-    for (let i = 0; i < current_users.length; i++) {
-        lower_case_current_users.push(current_users[i]);
+//Ordinal Numbers
+let numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (let i = 0; i < numArr.length; i++) {
+    if (numArr[i] === 1) {
+        console.log(`${numArr[i]}st`);
     }
-    for (let i = 0; i < new_users.length; i++) {
-        if (lower_case_current_users.indexOf(new_users[i].toLocaleLowerCase()) > -1) {
-            console.log(`${new_users[i]} will need to enter a new username`);
-        }
-        else {
-            console.log(`${new_users[i]} is available`);
-        }
+    else if (numArr[i] === 2) {
+        console.log(`${numArr[i]}nd`);
+    }
+    else if (numArr[i] === 3) {
+        console.log(`${numArr[i]}rd`);
+    }
+    else {
+        console.log(`${numArr[i]}th`);
     }
 }
 export {};

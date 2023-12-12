@@ -1,15 +1,26 @@
 //Checking Usernames
 
-const current_users: string[] = ["Ali", "Hamza", "Daniyal", "Ahmed", "Hasan"];
+//Make a list of current users
+const current_users: string[] = ["Ali", "Daniyal", "Noman", "Hamza", "Qasim"];
 
-const new_users: string[] = ["Noman", "hamza", "daniyal", "Imran", "Abdullah"];
+//Make a list of new users
+const new_users: string[] = ["ali", "Hasan", "daniyal", "Abdullah", "Ahmad"];
 
-for (let i = 0; i < current_users.length; i++) {
-  for (let j = 0; j < new_users.length; j++) {
-    if (current_users[i].toLowerCase == new_users[j].toLowerCase) {
-      console.log("The username has already been used");
-    } else {
-      console.log("available");
+//Function to check whether a username is taken or not
+function isUsernameTaken(username: string): boolean {
+  for (let i = 0; i < current_users.length; i++) {
+    if (current_users[i].toLowerCase() === username.toLowerCase()) {
+      return true;
     }
+  }
+  return false;
+}
+
+//Now looping through the new_users list to check the availability of usernames
+for (let j = 0; j < new_users.length; j++) {
+  if (isUsernameTaken(new_users[j])) {
+    console.log("The username has been taken");
+  } else {
+    console.log("The username is available");
   }
 }
