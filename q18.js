@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // Initialize array in non-alphabetical order
 let placesToVisit = [
     'Silicone Valley',
@@ -28,4 +30,3 @@ console.log(placesToVisit);
 // Sort to change the array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
 placesToVisit.reverse();
 console.log(placesToVisit);
-export {};

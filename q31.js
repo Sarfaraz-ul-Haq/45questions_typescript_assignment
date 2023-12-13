@@ -1,4 +1,6 @@
+"use strict";
 //No Users: Add an if test to Exercise 30 to make sure the list of users is not empty.
+Object.defineProperty(exports, "__esModule", { value: true });
 //Program 30
 const userNames = ["admin", "ali", "hamza", "noman", "daniyal"];
 //Removing all elements of the array "userNames".
@@ -16,4 +18,3 @@ for (let i = 0; i < userNames.length; i++) {
 if (userNames.length < 1) {
     console.log("We need to find some users!");
 }
-export {};

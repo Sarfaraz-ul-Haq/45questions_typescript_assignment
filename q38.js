@@ -1,4 +1,6 @@
+"use strict";
 //Cities
+Object.defineProperty(exports, "__esModule", { value: true });
 function describe_city(city, country = "Pakistan") {
     if ("London" === city) {
         console.log(`London is not in ${country}`);
@@ -10,4 +12,3 @@ function describe_city(city, country = "Pakistan") {
 describe_city("Lahore");
 describe_city("Islamabad");
 describe_city("London");
-export {};

@@ -1,4 +1,6 @@
+"use strict";
 //More Guests
+Object.defineProperty(exports, "__esModule", { value: true });
 // I just found a bigger dinner table, so now more space is available.
 // Going to invite three more guests for dinner.
 // Start with the program from Exercise 15. Add a print statement to the end of your program informing people that you found a bigger dinner table/
@@ -28,4 +30,3 @@ console.log(`Hello ${invitePeople[2]}, I would like to invite you to dinner toni
 console.log(`Hello ${invitePeople[3]}, I would like to invite you to dinner tonight.`);
 console.log(`Hello ${invitePeople[4]}, I would like to invite you to dinner tonight.`);
 console.log(`Hello ${invitePeople[5]}, I would like to invite you to dinner tonight.`);
-export {};

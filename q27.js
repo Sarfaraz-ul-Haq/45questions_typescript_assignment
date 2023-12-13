@@ -1,4 +1,6 @@
+"use strict";
 //Alien Colors 3
+Object.defineProperty(exports, "__esModule", { value: true });
 //Version 1
 let alien_color = "green";
 if (alien_color == "green") {
@@ -32,4 +34,3 @@ else if (alien_color == "yellow") {
 else {
     console.log("The player earned 15 points");
 }
-export {};

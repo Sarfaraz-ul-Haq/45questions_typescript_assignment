@@ -1,4 +1,6 @@
+"use strict";
 // Make a list of mountains, rivers, countries, cities, languages. Write a program that creates a list containing these items.
+Object.defineProperty(exports, "__esModule", { value: true });
 const mountains = [
     "Mount Everest",
     "K2",
@@ -14,4 +16,3 @@ const countries = [
 ];
 const cities = ["Lahore", "Karachi", "Islamabad", "Peshawar"];
 const languages = ["English", "Urdu", "Punjabi", "Arabic"];
-export {};

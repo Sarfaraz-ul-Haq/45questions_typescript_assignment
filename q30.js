@@ -1,4 +1,6 @@
+"use strict";
 //Hello Admin
+Object.defineProperty(exports, "__esModule", { value: true });
 const userNames = ["admin", "ali", "hamza", "noman", "daniyal"];
 for (let i = 0; i < userNames.length; i++) {
     if (userNames[i] == "admin") {
@@ -8,4 +10,3 @@ for (let i = 0; i < userNames.length; i++) {
         console.log(`Thank you ${userNames[i]} for logging in again.`);
     }
 }
-export {};

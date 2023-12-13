@@ -1,4 +1,6 @@
+"use strict";
 //More Conditional Tests
+Object.defineProperty(exports, "__esModule", { value: true });
 //Tests for equality and inequality with strings
 let fruit1 = "Mango";
 console.log("Is fruit1 == 'Mango? I predict true.");
@@ -89,4 +91,3 @@ if (fruits[0] !== "Watermelon") {
 else {
     console.log("Watermelon is in the array.");
 }
-export {};

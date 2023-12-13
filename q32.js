@@ -1,4 +1,6 @@
+"use strict";
 //Checking Usernames
+Object.defineProperty(exports, "__esModule", { value: true });
 //Make a list of current users
 const current_users = ["Ali", "Daniyal", "Noman", "Hamza", "Qasim"];
 //Make a list of new users
@@ -21,4 +23,3 @@ for (let j = 0; j < new_users.length; j++) {
         console.log("The username is available");
     }
 }
-export {};
