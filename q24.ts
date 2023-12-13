@@ -1,6 +1,6 @@
-// MORE CONDITIONAL TESTS
+//More Conditional Tests
 
-// Tests for equality and inequality with strings
+//Tests for equality and inequality with strings
 let fruit1 = "Mango";
 console.log("Is fruit1 == 'Mango? I predict true.");
 console.log(fruit1);
@@ -11,7 +11,9 @@ console.log("Is fruit2 == 'Mango? I predict false.");
 console.log(fruit2);
 console.log("\n");
 
-// Tests using the lower case function
+////==================================================
+
+//Tests using the lower case function
 let country = "Pakistan";
 console.log("Is country.toLowerCase()  == 'pakistan'? I predict true.");
 console.log(country.toLowerCase() == "pakistan");
@@ -22,7 +24,9 @@ console.log("Is city.toLowerCase() == 'LAHORE'? I predict false.");
 console.log(city.toLowerCase() == "LAHORE");
 console.log("\n");
 
-// Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
+////==================================================
+
+//Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
 let n1 = 5;
 console.log(n1 === 5);
 
@@ -41,16 +45,20 @@ console.log(n5 >= 40);
 let n6 = 75;
 console.log(n6 <= 25);
 
-// Tests using "and" and "or" operators
-// And operator
+////==================================================
+
+//Tests using "and" and "or" operators
+
+//"And" operator
+//true result
 const num1 = 30;
 const num2 = 70;
 if (num1 >= 30 && num2 < 75) {
   console.log(true);
 } else {
-  console.log(false);
+  console.log(false); 
 }
-
+//false result
 const num3 = 40;
 const num4 = 60;
 if (num3 < 30 && num4 > 50) {
@@ -59,7 +67,8 @@ if (num3 < 30 && num4 > 50) {
   console.log(false);
 }
 
-// Or operator
+//"Or" operator
+//true result
 const num5 = 70;
 const num6 = 30;
 if (num5 > 50 || num6 < 10) {
@@ -67,7 +76,7 @@ if (num5 > 50 || num6 < 10) {
 } else {
   console.log(false);
 }
-
+//false result
 const num7 = 10;
 const num8 = 90;
 if (num7 > 30 || num8 <= 50) {
@@ -75,6 +84,8 @@ if (num7 > 30 || num8 <= 50) {
 } else {
   console.log(false);
 }
+
+////==================================================
 
 // Test whether an item is in a array
 const devices: string[] = ["Mobile", "Tablet", "Laptop", "Desktop"];

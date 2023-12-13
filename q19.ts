@@ -1,4 +1,4 @@
-// DINNER GUESTS
+//Dinner Guests
 
 // Working with the program from Exercises 14, print a message indicating the number of people you are inviting to dinner.
 

@@ -1,4 +1,3 @@
-"use strict";
 //  Typescript Objects
 const mountains = {
     name1: "Mount Everest",
@@ -30,3 +29,4 @@ const languages = {
     name3: "Punjabi",
     name4: "Arabic",
 };
+export {};

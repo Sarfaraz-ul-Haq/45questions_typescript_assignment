@@ -1,9 +1,17 @@
-"use strict";
-// ALBUM
-// Write a function called make_album() that builds a Object describing a music album. The function should take in an artist name and an album title, and it should return a Object containing these two pieces of information. Use the function to make three dictionaries representing different albums. Print each return value to show that Objects are storing the album information correctly. Add an optional parameter to make_album() that allows you to store the number of tracks on an album. If the calling line includes a value for the number of tracks, add that value to the album’s Object. Make at least one new function call that includes the number of tracks on an album.
-function make_album(artistName, albumTitle) {
-    let object = { artistName, albumTitle };
+//Album
+//Write a function called make_album() that builds a Object describing a music album. The function should take in an artist name and an album title, and it should return a Object containing these two pieces of information. Use the function to make three dictionaries representing different albums. Print each return value to show that Objects are storing the album information correctly. 
+//Add an optional parameter to make_album() that allows you to store the number of tracks on an album. If the calling line includes a value for the number of tracks, add that value to the album’s Object. Make at least one new function call that includes the number of tracks on an album.
+function make_album(artistName, albumTitle, track) {
+    let album = {
+        artistName,
+        albumTitle,
+    };
+    if (track !== undefined) {
+        album.track = track;
+    }
+    return album;
 }
-make_album("Mishary Rashid Alafasy", "Elahi");
-make_album("Mishary Rashid Alafasy", "Mustafa Mustafa");
-make_album("Mishary Rashid Alafasy", "Rahman Ya Rahman");
+console.log(make_album("Alafasy", "Elahi"));
+console.log(make_album("Alafasy", "Mustafa Mustafa", 2));
+console.log(make_album("Alafasy", "Rahman ya Rahman"));
+export {};

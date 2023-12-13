@@ -1,5 +1,6 @@
-"use strict";
-const names = ["Momin", "Hasan", "Noman"];
-console.log(`Hello ${names[0]}, would you like to learn some TypeScript today?`);
-console.log(`Hello ${names[1]}, would you like to learn some TypeScript today?`);
-console.log(`Hello ${names[2]}, would you like to learn some TypeScript today?`);
+//Greetings
+const friendNames = ["Momin", "Hasan", "Noman"];
+console.log(`Hello ${friendNames[0]}, would you like to learn some TypeScript today?`);
+console.log(`Hello ${friendNames[1]}, would you like to learn some TypeScript today?`);
+console.log(`Hello ${friendNames[2]}, would you like to learn some TypeScript today?`);
+export {};
