@@ -1,18 +1,15 @@
 {
   "name": "45questions_typescript_assignment",
   "version": "1.0.0",
-  "description": "",
-  "main": "q10.js",
-  "dependencies": {
-    "undici-types": "^5.26.5"
-  },
-  "devDependencies": {
-    "@types/node": "^20.10.4"
-  },
+  "description": "<h2>Getting Started Exercises with TypeScript and Node.js (Quarter 1)</h2>",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.6"
+  }
 }
