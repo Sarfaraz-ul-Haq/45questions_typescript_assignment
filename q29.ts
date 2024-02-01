@@ -1,4 +1,4 @@
-//Favorite Fruit
+// Favorite Fruit
 
 const favorite_fruits = ["Guava", "Mango", "Grapes", "Peach", "Banana"];
 if (favorite_fruits[0] == "Guava") {
