@@ -1,4 +1,4 @@
-//Conditional Tests
+// Conditional Tests
 
 // Write a series of conditional tests. Print a statement describing each test and your prediction for the results of each test. Your code should look something like this:
 
@@ -29,7 +29,9 @@ console.log(plane == "Boeing 777");
 console.log("\n");
 
 let course = "GenAI, Web3 & Metaverse Developer & Solopreneur";
-console.log("Is course == 'GenAI, Web3 & Metaverse Developer & Solopreneur'? I predict true.");
+console.log(
+  "Is course == 'GenAI, Web3 & Metaverse Developer & Solopreneur'? I predict true."
+);
 console.log(course == "GenAI, Web3 & Metaverse Developer & Solopreneur");
 console.log("\n");
 

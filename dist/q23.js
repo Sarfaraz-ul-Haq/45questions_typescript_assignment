@@ -1,5 +1,5 @@
 "use strict";
-//Conditional Tests
+// Conditional Tests
 Object.defineProperty(exports, "__esModule", { value: true });
 // Write a series of conditional tests. Print a statement describing each test and your prediction for the results of each test. Your code should look something like this:
 // let car = 'subaru';
