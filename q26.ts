@@ -1,6 +1,6 @@
-//Alien Colors 2
+// Alien Colors #2
 
-//Choose a color for an alien as you did in Question 25, and write an if-else chain.
+// Choose a color for an alien as you did in Question 25, and write an if-else chain.
 
 // Program that runs the if block
 let alien_color = "green";
