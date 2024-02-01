@@ -13,5 +13,5 @@ const make_album = (artistName, albumTitle, tracks) => {
     return album;
 };
 console.log(make_album("Mishary bin Rashid Alafasy", "Elahi"));
-console.log(make_album("Mishary bin Rashid Alafasy", "Rahman ya Rahman", 2));
+console.log(make_album("Mishary bin Rashid Alafasy", "Rahman ya Rahman", 3));
 console.log(make_album("Mishary bin Rashid Alafasy", "Mustafa Mustafa"));
