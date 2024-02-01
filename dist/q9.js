@@ -1,6 +1,6 @@
 "use strict";
-//Favorite Number
+// Favorite Number
 Object.defineProperty(exports, "__esModule", { value: true });
-let favNumber = 50;
-let message = `My favorite number is ${favNumber}`;
+const favNumber = 50;
+const message = `My favorite number is ${favNumber}`;
 console.log(message);

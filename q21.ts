@@ -1,4 +1,4 @@
-//  Typescript Objects
+// Typescript Objects
 
 const mountains = {
   name1: "Mount Everest",

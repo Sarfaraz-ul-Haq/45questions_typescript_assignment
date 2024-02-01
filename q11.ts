@@ -1,8 +1,7 @@
-//Names
+// Names
 
-const names: string[] = ["Momin", "Hasan", "Noman"];
+const names = ["Muhammad", "Ali", "Umar"];
 
 console.log(names[0]);
 console.log(names[1]);
 console.log(names[2]);
-

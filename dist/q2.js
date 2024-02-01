@@ -1,5 +1,5 @@
 "use strict";
-//Personal Message
+// Personal Message
 Object.defineProperty(exports, "__esModule", { value: true });
-let personsName = "Elon";
+const personsName = "Elon";
 console.log(`Hello ${personsName}, would you like to learn some TypeScript today?`);

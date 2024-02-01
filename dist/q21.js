@@ -1,5 +1,5 @@
 "use strict";
-//  Typescript Objects
+// Typescript Objects
 Object.defineProperty(exports, "__esModule", { value: true });
 const mountains = {
     name1: "Mount Everest",

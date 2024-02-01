@@ -1,12 +1,13 @@
 "use strict";
+// Seeing the World
 Object.defineProperty(exports, "__esModule", { value: true });
 // Initialize array in non-alphabetical order
 let placesToVisit = [
-    'Silicone Valley',
-    'National Air and Space Museum',
-    'Mount Everest',
-    'International Space Station',
-    'Disneyland',
+    "Silicone Valley",
+    "National Air and Space Museum",
+    "Makkah",
+    "International Space Station",
+    "Disneyland",
 ];
 // Print the array in its original form.
 console.log(placesToVisit);
@@ -28,5 +29,5 @@ console.log(placesToVisit);
 placesToVisit = placesToVisit.sort();
 console.log(placesToVisit);
 // Sort to change the array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
-placesToVisit.reverse();
+placesToVisit = placesToVisit.reverse();
 console.log(placesToVisit);

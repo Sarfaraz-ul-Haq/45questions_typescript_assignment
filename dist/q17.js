@@ -1,5 +1,5 @@
 "use strict";
-// SHRINKING GUEST LIST
+// Shrinking Guest List
 Object.defineProperty(exports, "__esModule", { value: true });
 // I just found out that my new dinner table won’t arrive in time for the dinner, and I have space for only two guests.
 // Start with the program from Exercise 16. Add a new line that prints a message saying that you can invite only two people for dinner

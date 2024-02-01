@@ -1,5 +1,5 @@
 "use strict";
-//More Guests
+// More Guests
 Object.defineProperty(exports, "__esModule", { value: true });
 // I just found a bigger dinner table, so now more space is available.
 // Going to invite three more guests for dinner.

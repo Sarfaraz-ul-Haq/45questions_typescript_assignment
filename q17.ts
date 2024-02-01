@@ -1,4 +1,4 @@
-// SHRINKING GUEST LIST
+// Shrinking Guest List
 
 // I just found out that my new dinner table won’t arrive in time for the dinner, and I have space for only two guests.
 

@@ -1,4 +1,4 @@
-//Guest List
+// Guest List
 
 //Inviting three people to dinner.
 const invitePeople = ["Sir Zia", "Sir Jahanzaib", "Sir Daniyal"];

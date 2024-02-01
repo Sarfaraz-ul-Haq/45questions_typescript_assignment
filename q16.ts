@@ -1,4 +1,4 @@
-//More Guests
+// More Guests
 
 // I just found a bigger dinner table, so now more space is available.
 // Going to invite three more guests for dinner.

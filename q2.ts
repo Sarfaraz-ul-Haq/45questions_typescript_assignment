@@ -1,7 +1,7 @@
-//Personal Message
+// Personal Message
 
-let personsName = "Elon";
+const personsName = "Elon";
 
-console.log(`Hello ${personsName}, would you like to learn some TypeScript today?`);
-
-
+console.log(
+  `Hello ${personsName}, would you like to learn some TypeScript today?`
+);

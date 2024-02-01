@@ -1,6 +1,5 @@
-//Favorite Number
+// Favorite Number
 
-let favNumber: number = 50;
-let message = `My favorite number is ${favNumber}`;
+const favNumber = 50;
+const message = `My favorite number is ${favNumber}`;
 console.log(message);
-

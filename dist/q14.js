@@ -1,5 +1,5 @@
 "use strict";
-//Guest List
+// Guest List
 Object.defineProperty(exports, "__esModule", { value: true });
 //Inviting three people to dinner.
 const invitePeople = ["Sir Zia", "Sir Jahanzaib", "Sir Daniyal"];
