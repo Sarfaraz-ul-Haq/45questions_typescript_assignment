@@ -6,14 +6,14 @@ const current_users = ["Ali", "Daniyal", "Noman", "Hamza", "Qasim"];
 // Make a list of new users
 const new_users = ["ali", "Hasan", "daniyal", "Abdullah", "Ahmad"];
 // Function to check whether a username is taken or not
-function isUsernameTaken(username) {
+const isUsernameTaken = (username) => {
     for (let i = 0; i < current_users.length; i++) {
         if (current_users[i].toLowerCase() === username.toLowerCase()) {
             return true;
         }
     }
     return false;
-}
+};
 // Now looping through the new_users list to check the availability of usernames
 for (let j = 0; j < new_users.length; j++) {
     if (isUsernameTaken(new_users[j])) {

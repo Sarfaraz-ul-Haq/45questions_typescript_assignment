@@ -1,5 +1,5 @@
 "use strict";
-//Animals
+// Animals
 Object.defineProperty(exports, "__esModule", { value: true });
 const animals = ["Cat", "Dog", "Parrot"];
 for (let i = 0; i < animals.length; i++) {

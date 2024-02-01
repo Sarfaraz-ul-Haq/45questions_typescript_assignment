@@ -1,5 +1,5 @@
 "use strict";
-//Pizzas
+// Pizzas
 Object.defineProperty(exports, "__esModule", { value: true });
 const favPizza = ["Cheesy", "Hot & Spicy", "Chicken Fajita"];
 for (let i = 0; i < favPizza.length; i++) {
