@@ -1,6 +1,4 @@
-"use strict";
 // Changing Guest List
-Object.defineProperty(exports, "__esModule", { value: true });
 // Start with the program from Exercise 14. Add a print statement at the end of the program stating the name of the guest who can’t make it.
 const invitePeople = ["Sir Zia", "Sir Jahanzaib", "Sir Daniyal"];
 console.log(`Hello ${invitePeople[0]}, I would like to invite you to dinner tonight.`);
@@ -13,3 +11,4 @@ invitePeople[2] = "Sir Adil"; // Updating the array's 2nd index value.
 console.log(`Hello ${invitePeople[0]}, I would like to invite you to dinner tonight.`);
 console.log(`Hello ${invitePeople[1]}, I would like to invite you to dinner tonight.`);
 console.log(`Hello ${invitePeople[2]}, I would like to invite you to dinner tonight.`);
+export {};

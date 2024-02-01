@@ -1,6 +1,4 @@
-"use strict";
 // Typescript Objects
-Object.defineProperty(exports, "__esModule", { value: true });
 const mountains = {
     name1: "Mount Everest",
     name2: "K2",
@@ -31,3 +29,4 @@ const languages = {
     name3: "Punjabi",
     name4: "Arabic",
 };
+export {};

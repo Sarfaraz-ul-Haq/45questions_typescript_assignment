@@ -1,6 +1,4 @@
-"use strict";
 // Favorite Fruit
-Object.defineProperty(exports, "__esModule", { value: true });
 const favorite_fruits = ["Guava", "Mango", "Grapes", "Peach", "Banana"];
 if (favorite_fruits[0] == "Guava") {
     console.log("You really like guavas!");
@@ -17,3 +15,4 @@ if (favorite_fruits[3] == "Peach") {
 if (favorite_fruits[4] == "Banana") {
     console.log("You really like banana!");
 }
+export {};

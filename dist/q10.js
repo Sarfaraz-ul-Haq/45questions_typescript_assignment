@@ -1,6 +1,4 @@
-"use strict";
 // Adding Comments
-Object.defineProperty(exports, "__esModule", { value: true });
 //Stored a person's name with whitespaces (horizontal tabulators and line break) in a variable
 let person_name = "\t\tElon\n\n\n";
 //Logged the variable once so that whitespaces are displayed
@@ -13,3 +11,4 @@ console.log(person_name);
 const favNumber = 50;
 const message = `My favorite number is ${favNumber}`;
 console.log(message);
+export {};

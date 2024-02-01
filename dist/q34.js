@@ -1,6 +1,4 @@
-"use strict";
 // Pizzas
-Object.defineProperty(exports, "__esModule", { value: true });
 const favPizza = ["Cheesy", "Hot & Spicy", "Chicken Fajita"];
 for (let i = 0; i < favPizza.length; i++) {
     console.log(`I like ${favPizza[i]} pizza.`);
@@ -11,3 +9,4 @@ I really love ${favPizza[1]} pizza!
 I really love ${favPizza[2]} pizza!
 I really love pizza!
 `);
+export {};
