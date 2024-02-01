@@ -1,8 +1,8 @@
 //City Names
 
-function city_country(city: string, country: string) {
+const city_country = (city: string, country: string): void => {
   console.log(`"${city}, ${country}"`);
-}
+};
 
 city_country("Lahore", "Pakistan");
 city_country("London", "England");
