@@ -1,6 +1,6 @@
-//Pizzas
+// Pizzas
 
-const favPizza: string[] = ["Cheesy", "Hot & Spicy", "Chicken Fajita"];
+const favPizza = ["Cheesy", "Hot & Spicy", "Chicken Fajita"];
 
 for (let i = 0; i < favPizza.length; i++) {
   console.log(`I like ${favPizza[i]} pizza.`);
