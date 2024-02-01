@@ -1,14 +1,28 @@
-const make_album = (artistName: string, albumTitle: string, tracks?: number): { artistName: string; albumTitle: string; tracks?: number } => {
+// Album
 
-    return {
-        artistName: artistName,
-        albumTitle: albumTitle,
-        tracks: tracks,
-    }
+//interface for album object
+interface Album {
+  artistName: string;
+  albumTitle: string;
+  tracks?: number;
+}
 
+// Arrow function that builds an object describing a music album
+const make_album = (
+  artistName: string,
+  albumTitle: string,
+  tracks?: number
+): Album => {
+  let album: Album = {
+    artistName: artistName,
+    albumTitle: albumTitle,
+  };
+  if (tracks != undefined) {
+    album.tracks = tracks;
+  }
+  return album;
 };
 
 console.log(make_album("Mishary bin Rashid Alafasy", "Elahi"));
 console.log(make_album("Mishary bin Rashid Alafasy", "Rahman ya Rahman", 2));
 console.log(make_album("Mishary bin Rashid Alafasy", "Mustafa Mustafa"));
-
