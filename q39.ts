@@ -1,4 +1,4 @@
-//City Names
+// City Names
 
 const city_country = (city: string, country: string): void => {
   console.log(`"${city}, ${country}"`);
