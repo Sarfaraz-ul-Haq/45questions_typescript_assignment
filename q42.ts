@@ -1,12 +1,13 @@
 // Great Magicians
+
 // Start with a copy of your program from Exercise 41. Write a function called make_great() that modifies the array of magicians by adding the phrase the Great to each magician’s name. Call show_magicians() to see that the list has actually been modified.
 
 // Exercise 41
 const magician_names = ["David Blaine", "David Copperfield", "Criss Angel"];
 
 // function to display each name of the array
-const show_magicians = (arr: string[]) => {
-  for (const magician of arr) {
+const show_magicians = (magicianArr: string[]) => {
+  for (const magician of magicianArr) {
     console.log(magician);
   }
 };
