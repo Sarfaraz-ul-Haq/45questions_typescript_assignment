@@ -3,12 +3,11 @@
 // Exercise 41
 const magician_names = ["David Blaine", "David Copperfield", "Criss Angel"];
 // function to display each name of the array
-const show_magicians = (arr) => {
-    for (const magician of arr) {
+const show_magicians = (magicianArr) => {
+    for (const magician of magicianArr) {
         console.log(magician);
     }
 };
-show_magicians(magician_names);
 // make_great() function that iterates through the magician_names array and  adds "the Great" to every name
 const make_great = () => {
     for (let i = 0; i < magician_names.length; i++) {

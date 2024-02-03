@@ -3,19 +3,19 @@
 const magician_names = ["David Blaine", "David Copperfield", "Criss Angel"];
 const magician_names_copy = [...magician_names];
 // function to display each name of the array
-const show_magicians = (arr) => {
-    for (const magician of arr) {
+const show_magicians = (magicianArr) => {
+    for (const magician of magicianArr) {
         console.log(magician);
     }
 };
 // make_great() function that iterates through the "magician_names_copy" array and  adds "the Great" to every name
-const make_great = () => {
-    for (let i = 0; i < magician_names_copy.length; i++) {
-        magician_names_copy[i] = `${magician_names_copy[i]} the Great`;
+const make_great = (magicianArr) => {
+    for (let i = 0; i < magicianArr.length; i++) {
+        magicianArr[i] = `${magicianArr[i]} the Great`;
     }
     return magician_names_copy;
 };
-const newArr = make_great();
+make_great(magician_names_copy);
 show_magicians(magician_names);
-show_magicians(newArr);
+show_magicians(magician_names_copy);
 export {};
