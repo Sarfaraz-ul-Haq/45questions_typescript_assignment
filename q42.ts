@@ -12,8 +12,6 @@ const show_magicians = (magicianArr: string[]) => {
   }
 };
 
-show_magicians(magician_names);
-
 // make_great() function that iterates through the magician_names array and  adds "the Great" to every name
 const make_great = () => {
   for (let i = 0; i < magician_names.length; i++) {
