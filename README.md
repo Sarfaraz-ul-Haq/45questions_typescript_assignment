@@ -1,4 +1,4 @@
-<h2>Getting Started Exercises with TypeScript and Node.js (Quarter 1)</h2>
+<h2>Getting Started Exercises with TypeScript and Node.js</h2>
 
 1. Install [Node.js](https://nodejs.org/en/), [TypeScript](https://www.typescriptlang.org/download)  and [VS Code](https://code.visualstudio.com/) on your computer.
 
