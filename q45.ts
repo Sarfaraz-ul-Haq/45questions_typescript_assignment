@@ -5,24 +5,20 @@
 const carInfoFunc = (
   manufacturer: string,
   model_name: string,
-  ...keywordArguments: { [key: string]: any }[]
+  keywordArguments: { [key: string]: any }
 ) => {
   let carInfo = {
     manufacturer: manufacturer,
     model_name: model_name,
+    ...keywordArguments,
   };
-
-  for (const keywordArgument of keywordArguments) {
-    carInfo = { ...carInfo, ...keywordArgument };
-  }
 
   return carInfo;
 };
 
-const info = carInfoFunc(
-  "BMW",
-  "BMW i7",
-  { color: "Black" },
-  { optionalFeature: "Sunroof" }
-);
+const info = carInfoFunc("BMW", "BMW i7", {
+  color: "Black",
+  optionalFeature: "Sunroof",
+});
+
 console.log(info);
