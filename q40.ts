@@ -1,18 +1,18 @@
 // Album
 
-//interface for album object
+// interface for album object
 interface Album {
   artistName: string;
   albumTitle: string;
   tracks?: number;
 }
 
-// Arrow function that builds an object describing a music album
-const make_album = (
+// function that builds an object describing a music album
+function make_album(
   artistName: string,
   albumTitle: string,
   tracks?: number
-): Album => {
+): Album {
   let album: Album = {
     artistName: artistName,
     albumTitle: albumTitle,
@@ -21,7 +21,7 @@ const make_album = (
     album.tracks = tracks;
   }
   return album;
-};
+}
 
 console.log(make_album("Mishary bin Rashid Alafasy", "Elahi"));
 console.log(make_album("Mishary bin Rashid Alafasy", "Rahman ya Rahman", 3));
